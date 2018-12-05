@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kanoodle</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+
+.st {
+    display: inline-table;
+    margin: 5px;
+    border: none;
+    border-collapse: collapse;
+}
+
+.sr {
+    height: 12px;
+}
+
+.sc {
+    width: 12px;
+    padding: 0px;
+}
+
+.wt {
+    display: inline-table;
+    margin: 5px;
+    border: none;
+    border-collapse: collapse;
+}
+
+.wr {
+    height: 50px;
+}
+
+.wc {
+    width: 50px;
+    padding: 0px;
+}
+
+.cI {
+    background-color: purple;
+}
+
+.cL {
+    background-color: blue;
+}
+
+.cl {
+    background-color: orange;
+}
+
+.ci {
+    background-color: grey;
+}
+
+.cN {
+    background-color: green;
+}    
+
+.cV {
+    background-color: lightblue;
+}
+
+.cP {
+    background-color: red;
+}
+
+.cS {
+    background-color: lightgreen;
+}
+
+.cU {
+    background-color: yellow;
+}
+
+.cW {
+    background-color: magenta;
+}
+
+.cX {
+    background-color: darkgrey;
+}
+
+.cY {
+    background-color: pink;
+}
+
+.btn {
+    border-top: none;
+}
+
+.bts {
+    border-top: 1px solid black;
+}
+
+.btd {
+    border-top: 1px dotted black;
+}
+
+.bbn {
+    border-bottom: none;
+}
+
+.bbs {
+    border-bottom: 1px solid black;
+}
+
+.bbd {
+    border-bottom: 1px dotted black;
+}
+
+.bln {
+    border-left: none;
+}
+
+.bls {
+    border-left: 1px solid black;
+}
+
+.bld {
+    border-left: 1px dotted black;
+}
+
+.brn {
+    border-right: none;
+}
+
+.brs {
+    border-right: 1px solid black;
+}
+
+.brd {
+    border-right: 1px dotted black;
+}
+
+                </style>
+    </head>
+    <body>        
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="Handler.js"></script>
+        <script>
+            $(document).ready(function(){
+                StartWorker();
+            });
+        </script>
+        <p>Solutions found: <span id="solcnt">0</span><button id="stopbtn" onclick="StopWorker()">Stop</button></p>
+        <div id="work"></div>
+        <div id="results"></div>
+        <div id="debug"></div>
+    </body>
+</html>
